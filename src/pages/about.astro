@@ -1,0 +1,49 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="Hakkımda"
+	description="Merhaba, ben Eray!"
+	pubDate={new Date('2024-12-25')}
+	heroImage="/engineer-profile.png"
+>
+	<div class="prose prose-lg mx-auto">
+		<h1 class="text-4xl font-bold mb-8">Hello World! 👋</h1>
+		
+		<div class="space-y-6">
+			<div class="mb-8">
+				<h2 class="text-2xl font-semibold mb-4">Türkçe</h2>
+				<p class="text-lg leading-relaxed">
+					Genç bir mühendis olarak, çağın gerektirdiği becerileri geliştirmek için yoğun bir çaba gösteriyorum. Her zaman kendimi geliştirmeyi ve daha fazlasını başarmayı hedefledim.
+				</p>
+				<p class="text-lg leading-relaxed mt-4">
+					İş hayatımda üstlendiğim sorumlulukları başarıyla tamamlarken, her gün yeni şeyler öğrenmenin heyecanını yaşıyorum. Sürekli öğrenme ve gelişim odaklı yaklaşımımla, teknoloji dünyasındaki yenilikleri yakından takip ediyorum.
+				</p>
+				<p class="text-lg leading-relaxed mt-4">
+					Sağlıklı kalın! 💪🚀
+				</p>
+			</div>
+
+			<div class="mb-8">
+				<h2 class="text-2xl font-semibold mb-4">English</h2>
+				<p class="text-lg leading-relaxed">
+					As a young engineer, I'm making a concerted effort to develop the skills necessary for the age. I've always wanted to improve and succeed more.
+				</p>
+				<p class="text-lg leading-relaxed mt-4">
+					I'm now finishing up the responsibilities I've been given in my work, and I feel like I'm learning new things every day. With my focus on continuous learning and development, I closely follow innovations in the technology world.
+				</p>
+				<p class="text-lg leading-relaxed mt-4">
+					Stay healthy! 💪🚀
+				</p>
+			</div>
+		</div>
+
+		<h2 class="text-2xl font-semibold mt-8 mb-4">İlgi Alanlarım</h2>
+		<ul class="list-disc list-inside space-y-2">
+			<li>Yeni Şeyler Öğrenmek 🎯</li>
+			<li>Gezmek 🌍</li>
+			<li>Kitap Okumak 📚</li>
+		</ul>
+	</div>
+</Layout>
